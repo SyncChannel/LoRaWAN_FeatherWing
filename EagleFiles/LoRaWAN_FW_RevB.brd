@@ -846,13 +846,13 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C3" library="adafruit" package="C0603" value="470nF" x="22.86" y="5.715" smashed="yes" rot="MR180"/>
+<element name="C2" library="adafruit" package="C0603" value="470nF" x="22.86" y="5.715" smashed="yes" rot="MR180"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="41.5925" y="1.27"/>
 <element name="LED2" library="adafruit" package="CHIPLED_0805" value="GREEN" x="3.81" y="5.87375" smashed="yes" rot="R90"/>
 <element name="R1" library="adafruit2" package="R0603" value="680" x="7.77875" y="4.60375" smashed="yes"/>
 <element name="H1" library="holes" package="2,8-PAD" value="MOUNT-PAD-ROUND2.8" x="2.2225" y="20.6375"/>
 <element name="H2" library="holes" package="2,8-PAD" value="MOUNT-PAD-ROUND2.8" x="2.2225" y="2.2225"/>
-<element name="C2" library="adafruit" package="C0603" value="1uF" x="22.86" y="17.30375" smashed="yes" rot="MR180"/>
+<element name="C1" library="adafruit" package="C0603" value="1uF" x="22.86" y="17.30375" smashed="yes" rot="MR180"/>
 <element name="X1" library="adafruit" package="SMA_EDGELAUNCH" value="" x="0" y="11.43" smashed="yes">
 <attribute name="VALUE" x="5.08" y="3.81" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -887,8 +887,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="H2" pad="B2,8"/>
 <contactref element="H1" pad="B2,8"/>
 <contactref element="LED1" pad="C"/>
+<contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
-<contactref element="C3" pad="2"/>
 <contactref element="X1" pad="GND@4"/>
 <contactref element="X1" pad="GND@2"/>
 <contactref element="X1" pad="GND@3"/>
@@ -953,8 +953,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="3V">
 <contactref element="R1" pad="2"/>
+<contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="C3" pad="1"/>
 <contactref element="U1" pad="12"/>
 <contactref element="U1" pad="34"/>
 <contactref element="J3" pad="2"/>

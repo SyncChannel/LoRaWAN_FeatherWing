@@ -7822,13 +7822,13 @@ Digikey Part Number:&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="C3" library="adafruit" deviceset="C-US" device="C0603" value="470nF"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0603" value="470nF"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="GREEN"/>
 <part name="R1" library="adafruit2" deviceset="R-US_" device="R0603" value="680"/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="X1" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE"/>
 <part name="U1" library="SyncChannelCustom" deviceset="RN2483/RN2903" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="ORANGE"/>
@@ -7857,13 +7857,13 @@ Digikey Part Number:&lt;br&gt;
 <text x="81.28" y="10.16" size="2.54" layer="97">Microchip RN2483 / RN2903</text>
 </plain>
 <instances>
-<instance part="C3" gate="G$1" x="203.2" y="55.88"/>
+<instance part="C2" gate="G$1" x="203.2" y="55.88"/>
 <instance part="LED2" gate="G$1" x="238.76" y="48.26"/>
 <instance part="R1" gate="G$1" x="238.76" y="58.42" rot="R90"/>
 <instance part="H1" gate="G$1" x="193.04" y="88.9"/>
 <instance part="H2" gate="G$1" x="238.76" y="88.9"/>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
-<instance part="C2" gate="G$1" x="187.96" y="55.88"/>
+<instance part="C1" gate="G$1" x="187.96" y="55.88"/>
 <instance part="X1" gate="G$1" x="119.38" y="142.24" rot="R90"/>
 <instance part="U1" gate="U$1" x="114.3" y="50.8"/>
 <instance part="LED1" gate="G$1" x="256.54" y="48.26"/>
@@ -7900,8 +7900,8 @@ Digikey Part Number:&lt;br&gt;
 <wire x1="187.96" y1="50.8" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 <label x="190.5" y="45.72" size="1.778" layer="95"/>
 <wire x1="203.2" y1="48.26" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="50.8" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8011,8 +8011,8 @@ Digikey Part Number:&lt;br&gt;
 <wire x1="187.96" y1="58.42" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
 <label x="190.5" y="61.722" size="1.778" layer="95"/>
 <wire x1="203.2" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="58.42" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
